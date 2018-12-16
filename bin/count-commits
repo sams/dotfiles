@@ -2,7 +2,7 @@
 
 if ARGV.include? '-h' or ARGV.include? '--help' then puts <<-HELP
 Count git commits across multiple projects.
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: #{File.basename $0} [directories] > counts.txt
 
@@ -16,7 +16,7 @@ commitcount email1, email2, ... (name1, name2, ...)
 
 Eg:
 
-1843 cowboy@rj3.net (Ben Alman, cowboy)
+1843 sams@rj3.net (Sam Sherlock, sams)
 1202 tyler@sleekcode.net (Tyler Kellen, tkellen)
  695 kyle@dontkry.com, kyle@kyletyoung.com (Kyle Robinson Young, shama)
  402 vlad.filippov@gmail.com (vladikoff, Vlad Filippov)
@@ -24,9 +24,9 @@ Eg:
 
 All other messages are sent to STDERR.
 
-Copyright (c) 2014 "Cowboy" Ben Alman
+Copyright (c) 2014 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 exit; end
 

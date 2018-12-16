@@ -2,7 +2,7 @@
 
 if [[ ! "$1" || "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 Curl a remote file into an editor.
-http://benalman.com/
+http://samsherlock.com/
 
 echo "Usage: $(basename "$0") [curloptions...] url"
 
@@ -14,9 +14,9 @@ The editor will be auto-magically determined by stripping any leading "curl"
 off this script's filename. For example, call this script "curlmate" and "mate"
 will be run.
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 exit; fi
 

@@ -2,16 +2,16 @@
 
 if [[ ! "$1" || "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 Hide or Show an OS X Partition
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: sudo $(basename "$0") mode device
 
 Where mode is either "hide" or "show" and device is a valid /dev/disk??? path.
 Tested on Apple_HFS and Apple_Boot partition types in OS X 10.8.
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 [[ "$1" ]]; exit; fi
 

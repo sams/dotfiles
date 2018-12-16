@@ -4,7 +4,7 @@ function _eachdir() {
 
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 eachdir
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: eachdir [dirs --] commands
 
@@ -29,9 +29,9 @@ Perform a "git pull" inside all subdirs starting with repo-:
 Perform a few git-related commands inside all subdirs starting with repo-:
   eachdir repo-* -- 'git fetch && git merge'
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 return; fi
 

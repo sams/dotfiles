@@ -2,7 +2,7 @@
 
 if [[ "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 Multi-Firefox Fixer
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: $(basename "$0")
 
@@ -15,9 +15,9 @@ Note that upon first run of a "fixed" Firefox, an app-named profile will need
 to be created. This can be done in the dialog that Firefox displays, just be
 sure to name it correctly!
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 exit; fi
 

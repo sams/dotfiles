@@ -2,7 +2,7 @@
 
 if [[ ! "$1" || "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 Resample specified images to 72 DPI
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: $(basename "$0") [img [img ...]]
 
@@ -11,9 +11,9 @@ one using the screencapture utility aren't scaled to 72 DPI by default.
 This script scales those images to 72 DPI, making them viewable at a sane
 resolution in web browsers.
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 [[ "$1" ]]; exit; fi
 

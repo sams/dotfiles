@@ -2,7 +2,7 @@
 
 if ARGV.include? '-h' or ARGV.include? '--help' then puts <<-HELP
 Port-scan one machine or everything on your subnet(s).
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: #{File.basename $0} [--full] [host_or_ip_or_wildcard ...]
 
@@ -16,9 +16,9 @@ one or more hosts, IPs or wildcards on which to perform a full port scan. The
 Maybe it'll help you find that server you lost. It didn't help me--but that's
 only because the machine I was looking for wasn't connected. Whoops.
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 exit; end
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ ! -e "$1" ]]; then cat <<HELP
-"Cowboy" Ben Alman MP3 Song Tagger
+"sams" Sam Sherlock MP3 Song Tagger
 Usage: $(basename "$0") Song.mp3 [Optional Song Title]
 HELP
 exit 1; fi
@@ -17,10 +17,10 @@ fi
 
 id3tool \
   --set-title="$title" \
-  --set-album="The Cowboy's Plaid Sombrero" \
-  --set-artist='"Cowboy" Ben Alman' \
+  --set-album="The sams's Plaid Sombrero" \
+  --set-artist='"sams" Sam Sherlock' \
   --set-year="$(date +%Y)" \
-  --set-note='More @ http://benalman.com/' \
+  --set-note='More @ http://samsherlock.com/' \
   --set-genre-word='Jazz+Funk' \
   "$file"
 

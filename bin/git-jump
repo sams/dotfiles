@@ -3,7 +3,7 @@
 function help() {
 cat <<HELP
 Git Jump (Forward & Back)
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: $(basename "$0") [command]
 
@@ -24,9 +24,9 @@ Description:
   files are saved in a tag for later retrieval, which is restored when
   jumped back to.
 
-Copyright (c) 2014 "Cowboy" Ben Alman
+Copyright (c) 2014 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 }
 

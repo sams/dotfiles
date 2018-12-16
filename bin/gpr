@@ -5,7 +5,7 @@ function help() {
   local_ref=foo
   script="$(basename "$0") $pr"
   cat <<HELP
--=[ GitHub Pull Request Helper - "Cowboy" Ben Alman - http://benalman.com/ ]=-
+-=[ GitHub Pull Request Helper - "sams" Sam Sherlock - http://samsherlock.com/ ]=-
 
   Usage: $(basename "$0") pull_request_id [ step ]
 
@@ -60,9 +60,9 @@ $(help_step4)
 
 -=[ License ]================================================================-
 
-  Copyright (c) 2012 "Cowboy" Ben Alman
+  Copyright (c) 2012 "sams" Sam Sherlock
   Licensed under the MIT license.
-  http://benalman.com/about/license/
+  http://samsherlock.com/about/license/
 HELP
   [[ "$1" ]]; exit
 }

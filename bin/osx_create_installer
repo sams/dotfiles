@@ -2,7 +2,7 @@
 
 if [[ ! "$1" || "$1" == "-h" || "$1" == "--help" ]]; then cat <<HELP
 Create an OS X "USB Install Stick" from InstallESD.dmg
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: sudo $(basename "$0") source_image target_path
 
@@ -14,9 +14,9 @@ Before running this script, open Disk Utility and partition a USB Stick like:
 
 Then run this script like: sudo $(basename "$0") InstallESD.dmg /Volumes/Foobar
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/
+http://samsherlock.com/about/license/
 HELP
 [[ "$1" ]]; exit; fi
 

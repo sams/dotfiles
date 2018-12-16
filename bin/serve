@@ -6,7 +6,7 @@ args = sys.argv[1:]
 if len(args) and (args[0] == "-h" or args[0] == "--help"):
   print """
 Serve a file (or the current directory)
-http://benalman.com/
+http://samsherlock.com/
 
 Usage: %s [PORT] [FILE]
 
@@ -14,9 +14,9 @@ If a port isn't specified, use 8080. If a file isn't specified, serve the
 current directory. Once started, open the specified file (or the current
 directory) with the default web browser.
 
-Copyright (c) 2012 "Cowboy" Ben Alman
+Copyright (c) 2012 "sams" Sam Sherlock
 Licensed under the MIT license.
-http://benalman.com/about/license/""" % os.path.basename(sys.argv[0])
+http://samsherlock.com/about/license/""" % os.path.basename(sys.argv[0])
   sys.exit()
 
 # Get port, if specified.
