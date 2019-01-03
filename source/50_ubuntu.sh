@@ -9,6 +9,9 @@ alias search="apt-cache search"
 
 alias say=spd-say
 
+# enable completion for sudo commands
+  complete -cf sudo
+
 # Make 'less' more.
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
