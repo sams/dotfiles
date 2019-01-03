@@ -19,3 +19,7 @@ function dotfiles() {
 }
 
 src
+
+# FZF find all the things
+# https://monades.roperzh.com/weekly-command-fuzzy-finding-everything-with-fzf/
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
